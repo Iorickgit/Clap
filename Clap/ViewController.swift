@@ -30,10 +30,10 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         }
     }
     
-    func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
+    func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int{
         return 1
     }
-    func pickerView(pickerView: UIPickerView,  numberOfRowsInComponent component: Int) -> Int!{
+    func pickerView(pickerView: UIPickerView,  numberOfRowsInComponent component: Int) -> Int{
         return 10
     }
     func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String?{
